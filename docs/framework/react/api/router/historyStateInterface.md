@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [HistoryState 인터페이스](#historystate-인터페이스)
+
 # HistoryState 인터페이스
 
 `HistoryState` 인터페이스는 `history` 패키지에서 내보내는 인터페이스로, `history` 패키지와 `window.location` API와 함께 사용할 수 있는 상태 객체의 구조를 정의합니다.

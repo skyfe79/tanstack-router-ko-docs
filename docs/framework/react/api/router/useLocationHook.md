@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [useLocation 훅](#uselocation-훅)
+  - [useLocation 옵션](#uselocation-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+  - [useLocation 반환값](#uselocation-반환값)
+  - [예제](#예제)
+
 # useLocation 훅
 
 `useLocation` 메서드는 현재 [`location`](./ParsedLocationType.md) 객체를 반환하는 훅입니다. 이 훅은 현재 위치가 변경될 때마다 특정 부수 효과(side effect)를 수행하고 싶을 때 유용합니다.

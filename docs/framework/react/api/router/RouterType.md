@@ -1,3 +1,25 @@
+# Table of Contents
+
+- [라우터 타입](#라우터-타입)
+  - [`Router`의 속성과 메서드](#router의-속성과-메서드)
+    - [`.update` 메서드](#update-메서드)
+    - [`state` 속성](#state-속성)
+    - [`.subscribe` 메서드](#subscribe-메서드)
+    - [`.matchRoutes` 메서드](#matchroutes-메서드)
+    - [`.cancelMatch` 메서드](#cancelmatch-메서드)
+    - [`.cancelMatches` 메서드](#cancelmatches-메서드)
+    - [`.buildLocation` 메서드](#buildlocation-메서드)
+    - [`.commitLocation` 메서드](#commitlocation-메서드)
+    - [`.navigate` 메서드](#navigate-메서드)
+    - [`.invalidate` 메서드](#invalidate-메서드)
+    - [`.clearCache` 메서드](#clearcache-메서드)
+    - [`.load` 메서드](#load-메서드)
+    - [`.preloadRoute` 메서드](#preloadroute-메서드)
+    - [`.loadRouteChunk` 메서드](#loadroutechunk-메서드)
+    - [`.matchRoute` 메서드](#matchroute-메서드)
+    - [`.dehydrate` 메서드](#dehydrate-메서드)
+    - [`.hydrate` 메서드](#hydrate-메서드)
+
 # 라우터 타입
 
 `Router` 타입은 라우터 인스턴스를 설명하는 데 사용됩니다.

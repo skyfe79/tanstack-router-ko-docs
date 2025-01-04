@@ -1,3 +1,8 @@
+# Table of Contents
+
+- [정적 사전 렌더링(Static Prerendering)](#정적-사전-렌더링static-prerendering)
+  - [Nitro 기반의 사전 렌더링(Prerendering)](#nitro-기반의-사전-렌더링prerendering)
+
 # 정적 사전 렌더링(Static Prerendering)
 
 > 정적 사전 렌더링은 Nitro의 기능이며, TanStack Start에서도 사용할 수 있지만, 아직 최적의 사용 방법을 탐구 중입니다. 주의해서 사용하세요!

@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [RootRoute 클래스](#rootroute-클래스)
+  - [`RootRoute` 생성자](#rootroute-생성자)
+    - [생성자 옵션](#생성자-옵션)
+  - [생성자 반환 값](#생성자-반환-값)
+  - [예제](#예제)
+
 # RootRoute 클래스
 
 > [!CAUTION]

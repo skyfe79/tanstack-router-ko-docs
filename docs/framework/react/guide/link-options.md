@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [링크 옵션 재사용](#링크-옵션-재사용)
+    - [`linkOptions` 함수를 사용하여 재사용 가능한 옵션 만들기](#linkoptions-함수를-사용하여-재사용-가능한-옵션-만들기)
+    - [`linkOptions` 배열](#linkoptions-배열)
+
 # 링크 옵션 재사용
 
 `Link`, `redirect`, `navigate`에 전달하려는 옵션을 재사용하고 싶을 수 있습니다. 이 경우, `Link`에 전달되는 옵션을 객체 리터럴로 표현하는 것이 좋은 방법일 수 있습니다.

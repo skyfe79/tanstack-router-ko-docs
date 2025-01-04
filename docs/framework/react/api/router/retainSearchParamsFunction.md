@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [검색 파라미터 유지를 위한 미들웨어](#검색-파라미터-유지를-위한-미들웨어)
+  - [retainSearchParams props](#retainsearchparams-props)
+  - [예제](#예제)
+
 # 검색 파라미터 유지를 위한 미들웨어
 
 `retainSearchParams`는 검색 파라미터를 유지할 수 있게 해주는 검색 미들웨어입니다.

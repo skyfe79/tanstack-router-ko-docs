@@ -1,3 +1,14 @@
+# Table of Contents
+
+- [CatchBoundary 컴포넌트](#catchboundary-컴포넌트)
+  - [CatchBoundary 컴포넌트의 props](#catchboundary-컴포넌트의-props)
+    - [`props.getResetKey` 프로퍼티](#propsgetresetkey-프로퍼티)
+    - [`props.children` prop](#propschildren-prop)
+    - [`props.errorComponent` 속성](#propserrorcomponent-속성)
+    - [`props.onCatch` 프로퍼티](#propsoncatch-프로퍼티)
+  - [CatchBoundary 반환값](#catchboundary-반환값)
+  - [예제](#예제)
+
 # CatchBoundary 컴포넌트
 
 `CatchBoundary` 컴포넌트는 자식 컴포넌트에서 발생한 에러를 잡아내고, 에러 컴포넌트를 렌더링하며, 선택적으로 `onCatch` 콜백을 호출하는 역할을 합니다. 또한 `getResetKey` 함수를 받아서 키가 변경될 때 컴포넌트의 상태를 선언적으로 초기화할 수 있습니다.

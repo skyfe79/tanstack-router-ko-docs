@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [LinkOptions 타입](#linkoptions-타입)
+  - [LinkOptions 속성](#linkoptions-속성)
+    - [`target`](#target)
+    - [`activeOptions`](#activeoptions)
+    - [`preload`](#preload)
+    - [`preloadDelay`](#preloaddelay)
+    - [`disabled`](#disabled)
+
 # LinkOptions 타입
 
 `LinkOptions` 타입은 [`NavigateOptions`](./NavigateOptionsType.md) 타입을 확장하며, 실제 앵커 엘리먼트 속성을 처리할 때 TanStack Router에서 사용할 수 있는 추가 옵션을 포함합니다.

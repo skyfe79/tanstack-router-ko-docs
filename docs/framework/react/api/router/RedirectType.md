@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [리다이렉트 타입](#리다이렉트-타입)
+  - [리다이렉트 속성](#리다이렉트-속성)
+    - [`statusCode` 프로퍼티](#statuscode-프로퍼티)
+    - [`throw` 속성](#throw-속성)
+    - [`headers` 속성](#headers-속성)
+
 # 리다이렉트 타입
 
 `Redirect` 타입은 TanStack Router에서 리다이렉트 동작을 나타내는 데 사용됩니다.

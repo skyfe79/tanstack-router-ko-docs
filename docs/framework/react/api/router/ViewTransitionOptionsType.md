@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [ViewTransitionOptions 타입](#viewtransitionoptions-타입)
+  - [ViewTransitionOptions 속성](#viewtransitionoptions-속성)
+    - [`types` 속성](#types-속성)
+
 # ViewTransitionOptions 타입
 
 `ViewTransitionOptions` 타입은 [뷰 트랜지션 타입](https://developer.chrome.com/docs/web-platform/view-transitions/same-document#view-transition-types)을 정의하는 데 사용됩니다.

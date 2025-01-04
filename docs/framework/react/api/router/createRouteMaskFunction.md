@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [createRouteMask 함수](#createroutemask-함수)
+  - [createRouteMask 옵션](#createroutemask-옵션)
+  - [createRouteMask 반환값](#createroutemask-반환값)
+  - [예제](#예제)
+
 # createRouteMask 함수
 
 `createRouteMask` 함수는 `RouterOptions.routeMasks` 옵션에 전달할 수 있는 라우트 마스크 설정을 생성하는 헬퍼 함수입니다.

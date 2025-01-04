@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [isRedirect 함수](#isredirect-함수)
+  - [isRedirect 옵션](#isredirect-옵션)
+      - [`input`](#input)
+  - [isRedirect 반환값](#isredirect-반환값)
+  - [예제](#예제)
+
 # isRedirect 함수
 
 `isRedirect` 함수는 특정 객체가 리다이렉트 객체인지 확인하는 데 사용됩니다.

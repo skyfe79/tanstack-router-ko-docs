@@ -1,3 +1,14 @@
+# Table of Contents
+
+- [useLoaderData 훅](#useloaderdata-훅)
+  - [useLoaderData 옵션](#useloaderdata-옵션)
+    - [`opts.from` 옵션](#optsfrom-옵션)
+    - [`opts.strict` 옵션](#optsstrict-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+  - [useLoaderData 반환값](#useloaderdata-반환값)
+  - [예제](#예제)
+
 # useLoaderData 훅
 
 `useLoaderData` 훅은 컴포넌트 트리에서 가장 가까운 [`RouteMatch`](./RouteMatchType.md)의 로더 데이터를 반환합니다.

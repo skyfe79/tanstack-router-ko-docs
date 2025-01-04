@@ -1,3 +1,18 @@
+# Table of Contents
+
+- [가상 파일 라우트(Virtual File Routes)](#가상-파일-라우트virtual-file-routes)
+  - [설정](#설정)
+  - [TanStackRouter 플러그인을 통한 설정](#tanstackrouter-플러그인을-통한-설정)
+  - [가상 파일 라우트 생성하기](#가상-파일-라우트-생성하기)
+  - [가상 루트 라우트](#가상-루트-라우트)
+  - [가상 라우트(Virtual Route)](#가상-라우트virtual-route)
+  - [가상 인덱스 라우트](#가상-인덱스-라우트)
+  - [가상 레이아웃 라우트](#가상-레이아웃-라우트)
+  - [물리적 가상 라우트(Physical Virtual Routes)](#물리적-가상-라우트physical-virtual-routes)
+  - [TanStack Router에서 파일 기반 라우팅 내부의 가상 라우트](#tanstack-router에서-파일-기반-라우팅-내부의-가상-라우트)
+  - [시작하기](#시작하기)
+  - [TanStack Router CLI를 통한 설정](#tanstack-router-cli를-통한-설정)
+
 # 가상 파일 라우트(Virtual File Routes)
 
 > 우리는 [가상 파일 라우트 개념을 처음 제안한 Remix 팀](https://www.youtube.com/watch?v=fjTX8hQTlEc&t=730s)에게 감사의 말을 전합니다. 그들의 작업에서 영감을 받아 TanStack Router의 기존 파일 기반 라우트 트리 생성 방식에 적용했습니다.

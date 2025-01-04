@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [Navigate 컴포넌트](#navigate-컴포넌트)
+  - [Navigate 컴포넌트의 props](#navigate-컴포넌트의-props)
+    - [`...options`](#options)
+  - [Navigate 반환값](#navigate-반환값)
+
 # Navigate 컴포넌트
 
 `Navigate` 컴포넌트는 렌더링될 때 새로운 위치로 이동할 수 있는 컴포넌트입니다. 이 컴포넌트는 경로(pathname), 검색 파라미터(search params), 해시(hash), 그리고 위치 상태(location state)의 변경을 포함합니다. 성공적으로 렌더링되면, 내부적으로 `useEffect` 훅 안에서 네비게이션이 발생합니다.

@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [RouteMask 타입](#routemask-타입)
+  - [RouteMask 속성](#routemask-속성)
+    - [`...ToOptions`](#tooptions)
+    - [`options.routeTree`](#optionsroutetree)
+    - [`options.unmaskOnReload`](#optionsunmaskonreload)
+
 # RouteMask 타입
 
 `RouteMask` 타입은 [`ToOptions`](./ToOptionsType.md) 타입을 확장하며, 라우트 마스크를 생성하는 데 필요한 추가 속성을 가지고 있습니다.

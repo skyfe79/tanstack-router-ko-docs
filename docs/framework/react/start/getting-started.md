@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [시작하기](#시작하기)
+
 # 시작하기
 
 TanStack Start 프로젝트를 설정하는 방법은 다음과 같습니다:

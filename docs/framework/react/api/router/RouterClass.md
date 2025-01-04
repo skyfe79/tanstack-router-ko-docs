@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [Router 클래스](#router-클래스)
+  - [`Router` 생성자](#router-생성자)
+    - [생성자 옵션](#생성자-옵션)
+    - [생성자 반환값](#생성자-반환값)
+  - [예제](#예제)
+
 # Router 클래스
 
 > [!CAUTION]

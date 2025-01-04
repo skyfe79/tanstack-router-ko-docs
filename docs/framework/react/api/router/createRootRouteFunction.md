@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [createRootRoute 함수](#createrootroute-함수)
+  - [루트 라우트 생성 옵션](#루트-라우트-생성-옵션)
+  - [createRootRoute 반환값](#createrootroute-반환값)
+  - [예제](#예제)
+
 # createRootRoute 함수
 
 `createRootRoute` 함수는 새로운 루트 라우트 인스턴스를 반환합니다. 이 루트 라우트 인스턴스는 라우트 트리를 생성하는 데 사용할 수 있습니다.

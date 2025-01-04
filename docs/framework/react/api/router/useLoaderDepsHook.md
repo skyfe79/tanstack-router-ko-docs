@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [useLoaderDeps 훅](#useloaderdeps-훅)
+  - [useLoaderDepsHook 옵션](#useloaderdepshook-옵션)
+    - [`opts.from` 옵션](#optsfrom-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+  - [useLoaderDeps 반환값](#useloaderdeps-반환값)
+  - [예제](#예제)
+
 # useLoaderDeps 훅
 
 `useLoaderDeps` 훅은 특정 라우트의 `loader`를 트리거하는 데 사용되는 의존성을 담은 객체를 반환하는 훅입니다.

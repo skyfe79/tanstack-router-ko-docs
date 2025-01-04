@@ -1,3 +1,28 @@
+# Table of Contents
+
+- [검색 파라미터(Search Params)](#검색-파라미터search-params)
+  - [왜 `URLSearchParams`를 사용하지 않을까요?](#왜-urlsearchparams를-사용하지-않을까요)
+  - [검색 파라미터(Search Params): "원조" 상태 관리자](#검색-파라미터search-params-원조-상태-관리자)
+  - [JSON 우선 검색 파라미터](#json-우선-검색-파라미터)
+  - [검색 파라미터 검증 및 타입 지정](#검색-파라미터-검증-및-타입-지정)
+    - [검증 + 타입스크립트!](#검증--타입스크립트)
+    - [검색 파라미터 유효성 검사](#검색-파라미터-유효성-검사)
+      - [어댑터](#어댑터)
+    - [Zod](#zod)
+    - [Valibot](#valibot)
+    - [Arktype](#arktype)
+  - [검색 파라미터 읽기](#검색-파라미터-읽기)
+    - [로더에서 검색 파라미터 사용하기](#로더에서-검색-파라미터-사용하기)
+    - [부모 라우트에서 검색 파라미터 상속하기](#부모-라우트에서-검색-파라미터-상속하기)
+    - [컴포넌트에서 검색 파라미터 사용하기](#컴포넌트에서-검색-파라미터-사용하기)
+    - [라우트 컴포넌트 외부에서 검색 파라미터 사용하기](#라우트-컴포넌트-외부에서-검색-파라미터-사용하기)
+  - [검색 파라미터 작성하기](#검색-파라미터-작성하기)
+    - [`<Link search />`](#link-search-)
+    - [`useNavigate(), navigate({ search })`](#usenavigate-navigate-search-)
+    - [`router.navigate({ search })`](#routernavigate-search-)
+    - [`<Navigate search />`](#navigate-search-)
+  - [검색 미들웨어로 검색 변환하기](#검색-미들웨어로-검색-변환하기)
+
 # 검색 파라미터(Search Params)
 
 TanStack Query가 React 애플리케이션에서 서버 상태를 쉽게 다루게 해준 것처럼, TanStack Router는 여러분의 애플리케이션에서 URL 검색 파라미터의 힘을 발휘할 수 있도록 돕습니다.

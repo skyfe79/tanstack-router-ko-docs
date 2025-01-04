@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [NotFoundError](#notfounderror)
+  - [NotFoundError 속성](#notfounderror-속성)
+    - [`data` 속성](#data-속성)
+    - [`global` 속성](#global-속성)
+    - [`route` 속성](#route-속성)
+    - [`throw` 속성](#throw-속성)
+
 # NotFoundError
 
 `NotFoundError` 타입은 TanStack Router에서 찾을 수 없는 오류를 나타내기 위해 사용됩니다.

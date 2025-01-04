@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [getRouteApi 함수](#getrouteapi-함수)
+  - [getRouteApi 옵션](#getrouteapi-옵션)
+    - [`routeId` 옵션](#routeid-옵션)
+  - [getRouteApi 반환값](#getrouteapi-반환값)
+  - [예제](#예제)
+
 # getRouteApi 함수
 
 `getRouteApi` 함수는 특정 라우트 ID와 등록된 라우트 타입에 미리 바인딩된 `useParams`, `useSearch`, `useRouteContext`, `useNavigate`, `useLoaderData`, `useLoaderDeps`와 같은 일반적인 훅의 타입 안전 버전을 제공합니다.

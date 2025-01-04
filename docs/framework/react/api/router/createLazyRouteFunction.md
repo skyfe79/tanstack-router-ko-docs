@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [createLazyRoute 함수](#createlazyroute-함수)
+  - [createLazyRoute 옵션](#createlazyroute-옵션)
+    - [`id`](#id)
+    - [createLazyRoute 반환값](#createlazyroute-반환값)
+    - [예제](#예제)
+
 # createLazyRoute 함수
 
 `createLazyRoute` 함수는 매칭될 때 지연 로딩되는 부분적인 코드 기반 라우트 인스턴스를 생성하는 데 사용됩니다. 이 라우트 인스턴스는 `component`, `pendingComponent`, `errorComponent`, `notFoundComponent`와 같은 [비중요 속성](../../guide/code-splitting.md#how-does-tanstack-router-split-code)만 설정하는 데 사용할 수 있습니다.

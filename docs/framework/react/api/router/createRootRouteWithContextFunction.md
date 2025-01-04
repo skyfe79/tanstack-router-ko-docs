@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [createRootRouteWithContext 함수](#createrootroutewithcontext-함수)
+  - [createRootRouteWithContext 제네릭](#createrootroutewithcontext-제네릭)
+    - [`TRouterContext` 제네릭](#troutercontext-제네릭)
+  - [createRootRouteWithContext 반환값](#createrootroutewithcontext-반환값)
+  - [예제](#예제)
+
 # createRootRouteWithContext 함수
 
 `createRootRouteWithContext` 함수는 라우터가 생성될 때 컨텍스트 타입이 필요로 하는 루트 라우트 인스턴스를 생성하는 데 사용할 수 있는 헬퍼 함수입니다.

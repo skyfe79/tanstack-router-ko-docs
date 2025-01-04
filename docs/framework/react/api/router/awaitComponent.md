@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [Await 컴포넌트](#await-컴포넌트)
+  - [Await 컴포넌트의 Props](#await-컴포넌트의-props)
+    - [`props.promise` 속성](#propspromise-속성)
+    - [`props.children` prop](#propschildren-prop)
+  - [Await의 반환 동작](#await의-반환-동작)
+  - [예제](#예제)
+
 # Await 컴포넌트
 
 `Await` 컴포넌트는 제공된 Promise가 해결(resolve)되거나 거부(reject)될 때까지 일시 중단(suspend)하는 컴포넌트입니다.  

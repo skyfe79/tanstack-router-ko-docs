@@ -1,3 +1,20 @@
+# Table of Contents
+
+- [404 에러 처리](#404-에러-처리)
+  - [개요](#개요)
+  - [`notFoundMode` 옵션](#notfoundmode-옵션)
+    - [`notFoundMode: 'fuzzy'`](#notfoundmode-fuzzy)
+    - [`notFoundMode: 'root'`](#notfoundmode-root)
+  - [라우트의 `notFoundComponent` 설정하기](#라우트의-notfoundcomponent-설정하기)
+  - [기본 라우터 전체 404 처리](#기본-라우터-전체-404-처리)
+  - [직접 `notFound` 에러 던지기](#직접-notfound-에러-던지기)
+  - [특정 라우트에서 404 오류 처리하기](#특정-라우트에서-404-오류-처리하기)
+    - [루트 라우트를 수동으로 타겟팅하기](#루트-라우트를-수동으로-타겟팅하기)
+    - [컴포넌트에서 Not Found 에러 던지기](#컴포넌트에서-not-found-에러-던지기)
+    - [`notFoundComponent` 내부에서 데이터 로딩하기](#notfoundcomponent-내부에서-데이터-로딩하기)
+  - [SSR과 함께 사용하기](#ssr과-함께-사용하기)
+  - [`NotFoundRoute`에서 마이그레이션하기](#notfoundroute에서-마이그레이션하기)
+
 # 404 에러 처리
 
 > ⚠️ 이 페이지는 404 에러를 처리하기 위한 새로운 `notFound` 함수와 `notFoundComponent` API에 대해 다룹니다. `NotFoundRoute` 라우트는 더 이상 사용되지 않으며, 향후 릴리스에서 제거될 예정입니다. 자세한 내용은 [`NotFoundRoute`에서 마이그레이션하기](#migrating-from-notfoundroute)를 참고하세요.

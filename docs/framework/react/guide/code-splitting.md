@@ -1,3 +1,21 @@
+# Table of Contents
+
+- [코드 분할(Code Splitting)](#코드-분할code-splitting)
+  - [TanStack Router의 코드 분할 방식](#tanstack-router의-코드-분할-방식)
+  - [코드 분할 접근 방식](#코드-분할-접근-방식)
+  - [라우트 파일을 디렉토리로 캡슐화하기](#라우트-파일을-디렉토리로-캡슐화하기)
+  - [`.lazy.tsx` 접미사 사용하기](#lazytsx-접미사-사용하기)
+    - [`.lazy.tsx` 규칙의 예외 사항](#lazytsx-규칙의-예외-사항)
+    - [`.lazy.tsx`를 사용한 코드 분할 예제](#lazytsx를-사용한-코드-분할-예제)
+  - [가상 라우트 사용하기](#가상-라우트-사용하기)
+  - [자동 코드 분할 사용하기](#자동-코드-분할-사용하기)
+    - [자동 코드 분할을 위한 라우트 파일 준비](#자동-코드-분할을-위한-라우트-파일-준비)
+    - [자동 코드 분할 활성화](#자동-코드-분할-활성화)
+  - [Code-Based Splitting](#code-based-splitting)
+    - [`route.lazy()`와 `createLazyRoute`를 사용한 수동 코드 분할](#routelazy와-createlazyroute를-사용한-수동-코드-분할)
+  - [데이터 로더 분할](#데이터-로더-분할)
+  - [`getRouteApi` 헬퍼를 사용해 다른 파일에서 라우트 API에 접근하기](#getrouteapi-헬퍼를-사용해-다른-파일에서-라우트-api에-접근하기)
+
 # 코드 분할(Code Splitting)
 
 코드 분할과 지연 로딩은 애플리케이션의 번들 크기와 로드 성능을 개선하는 강력한 기술입니다.

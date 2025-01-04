@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [검색 파라미터 제거를 위한 미들웨어](#검색-파라미터-제거를-위한-미들웨어)
+  - [stripSearchParams 속성](#stripsearchparams-속성)
+  - [예제](#예제)
+
 # 검색 파라미터 제거를 위한 미들웨어
 
 `stripSearchParams`는 검색 파라미터를 제거할 수 있는 검색 미들웨어입니다.

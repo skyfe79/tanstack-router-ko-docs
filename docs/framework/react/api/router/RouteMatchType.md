@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [RouteMatch 타입](#routematch-타입)
+
 # RouteMatch 타입
 
 `RouteMatch` 타입은 TanStack Router에서 라우트 매치를 나타냅니다.

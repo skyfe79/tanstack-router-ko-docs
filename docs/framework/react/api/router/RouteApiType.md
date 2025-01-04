@@ -1,3 +1,15 @@
+# Table of Contents
+
+- [RouteApi 타입](#routeapi-타입)
+  - [`RouteApi` 속성과 메서드](#routeapi-속성과-메서드)
+    - [`useMatch` 메서드](#usematch-메서드)
+    - [`useRouteContext` 메서드](#useroutecontext-메서드)
+    - [`useSearch` 메서드](#usesearch-메서드)
+    - [`useParams` 메서드](#useparams-메서드)
+    - [`useLoaderData` 메서드](#useloaderdata-메서드)
+    - [`useLoaderDeps` 메서드](#useloaderdeps-메서드)
+    - [`useNavigate` 메서드](#usenavigate-메서드)
+
 # RouteApi 타입
 
 `RouteApi`는 특정 라우트 ID와 등록된 라우트 타입에 미리 바인딩된 `useParams`, `useSearch`, `useRouteContext`, `useNavigate`, `useLoaderData`, `useLoaderDeps`와 같은 일반적인 훅의 타입 안전 버전을 제공하는 인스턴스를 설명합니다.

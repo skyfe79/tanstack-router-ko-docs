@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [createLazyFileRoute 함수](#createlazyfileroute-함수)
+  - [createLazyFileRoute 옵션](#createlazyfileroute-옵션)
+    - [`path`](#path)
+    - [createLazyFileRoute 반환값](#createlazyfileroute-반환값)
+    - [예제](#예제)
+
 # createLazyFileRoute 함수
 
 `createLazyFileRoute` 함수는 파일 기반의 라우트 인스턴스를 생성하는 데 사용됩니다. 이 라우트 인스턴스는 매칭될 때 지연 로딩(lazily loaded)되며, **비중요 속성**만 설정할 수 있습니다. 여기서 비중요 속성은 `component`, `pendingComponent`, `errorComponent`, `notFoundComponent`와 같은 속성을 의미합니다.

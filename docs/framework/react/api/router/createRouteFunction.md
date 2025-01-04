@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [createRoute 함수](#createroute-함수)
+  - [createRoute 옵션](#createroute-옵션)
+  - [createRoute 반환값](#createroute-반환값)
+  - [예제](#예제)
+
 # createRoute 함수
 
 `createRoute` 함수는 [`Route`](./RouteType.md) 인스턴스를 반환합니다. 이 라우트 인스턴스는 루트 라우트의 자식으로 전달되어 라우트 트리를 생성할 수 있습니다. 이후 이 라우트 트리는 라우터에 전달됩니다.

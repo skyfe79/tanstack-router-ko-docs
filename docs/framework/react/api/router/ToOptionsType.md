@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [ToOptions 타입](#tooptions-타입)
+
 # ToOptions 타입
 
 `ToOptions` 타입은 라우터 목적지를 설명하는 데 사용할 수 있는 여러 속성을 포함합니다.

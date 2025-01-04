@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [useParentMatches 훅](#useparentmatches-훅)
+  - [useParentMatches 옵션](#useparentmatches-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+  - [useParentMatches 반환값](#useparentmatches-반환값)
+  - [예제](#예제)
+
 # useParentMatches 훅
 
 `useParentMatches` 훅은 현재 컨텍스트에서 매치된 라우트의 바로 위 부모부터 루트까지의 모든 부모 [`RouteMatch`](./RouteMatchType.md) 객체를 반환합니다. **이 훅은 현재 매치를 포함하지 않으며, 현재 매치는 `useMatch` 훅을 사용해 얻을 수 있습니다.**

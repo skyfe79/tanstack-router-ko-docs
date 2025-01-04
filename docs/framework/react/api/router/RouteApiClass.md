@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [RouteApi 클래스](#routeapi-클래스)
+  - [생성자 옵션](#생성자-옵션)
+    - [`opts.routeId` 옵션](#optsrouteid-옵션)
+  - [생성자 반환값](#생성자-반환값)
+  - [예제](#예제)
+
 # RouteApi 클래스
 
 > [!주의]

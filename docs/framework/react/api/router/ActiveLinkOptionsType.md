@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [ActiveLinkOptions 타입](#activelinkoptions-타입)
+  - [ActiveLinkOptions 속성](#activelinkoptions-속성)
+    - [`activeProps`](#activeprops)
+    - [`inactiveProps`](#inactiveprops)
+
 # ActiveLinkOptions 타입
 
 `ActiveLinkOptions` 타입은 [`LinkOptions`](./LinkOptionsType.md) 타입을 확장하며, 링크가 활성 상태일 때 스타일을 지정하는 데 사용할 수 있는 추가 옵션을 포함합니다.

@@ -1,3 +1,23 @@
+# Table of Contents
+
+- [Code-Based Routing](#code-based-routing)
+  - [⚠️ 시작하기 전에](#-시작하기-전에)
+  - [라우트 트리](#라우트-트리)
+  - [파일 기반 라우팅 vs 코드 기반 라우팅](#파일-기반-라우팅-vs-코드-기반-라우팅)
+  - [루트 라우트 생성하기](#루트-라우트-생성하기)
+  - [라우트의 구조](#라우트의-구조)
+    - [`getParentRoute` 옵션](#getparentroute-옵션)
+    - [`path` 옵션](#path-옵션)
+      - [선행/후행 슬래시](#선행후행-슬래시)
+  - [라우트 트리를 수동으로 구성하기](#라우트-트리를-수동으로-구성하기)
+  - [정적 라우트](#정적-라우트)
+  - [인덱스 라우트](#인덱스-라우트)
+  - [동적 라우트 세그먼트](#동적-라우트-세그먼트)
+  - [Splat / Catch-All Routes (스플랫/캐치올 라우트)](#splat--catch-all-routes-스플랫캐치올-라우트)
+  - [경로 없는 라우트(Pathless Routes)](#경로-없는-라우트pathless-routes)
+  - [중첩되지 않은 라우트](#중첩되지-않은-라우트)
+  - [404 / `NotFoundRoute` 설정](#404--notfoundroute-설정)
+
 # Code-Based Routing
 
 

@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [useParams 훅](#useparams-훅)
+  - [useParams 옵션](#useparams-옵션)
+    - [`opts.strict` 옵션](#optsstrict-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+  - [useParams 반환값](#useparams-반환값)
+  - [예제](#예제)
+
 # useParams 훅
 
 `useParams` 메서드는 가장 가까운 매치와 그 상위 매치들에서 파싱된 모든 경로 파라미터를 반환합니다.

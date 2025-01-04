@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [라우트 타입](#라우트-타입)
+  - [`Route`의 속성과 메서드](#route의-속성과-메서드)
+    - [`.addChildren` 메서드](#addchildren-메서드)
+    - [`.update` 메서드](#update-메서드)
+    - [`.lazy` 메서드](#lazy-메서드)
+    - [`RouteApi` 메서드](#routeapi-메서드)
+
 # 라우트 타입
 
 `Route` 타입은 라우트 인스턴스를 설명하는 데 사용됩니다.

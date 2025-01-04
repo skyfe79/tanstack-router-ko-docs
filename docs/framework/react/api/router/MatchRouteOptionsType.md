@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [MatchRouteOptions 타입](#matchrouteoptions-타입)
+  - [MatchRouteOptions 속성](#matchrouteoptions-속성)
+    - [`pending` 속성](#pending-속성)
+    - [`caseSensitive` 속성](#casesensitive-속성)
+    - [`includeSearch` 속성](#includesearch-속성)
+    - [`fuzzy` 속성](#fuzzy-속성)
+
 # MatchRouteOptions 타입
 
 `MatchRouteOptions` 타입은 라우트를 매칭할 때 사용할 수 있는 옵션을 정의합니다.

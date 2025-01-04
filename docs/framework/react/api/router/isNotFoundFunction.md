@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [isNotFound 함수](#isnotfound-함수)
+  - [isNotFound 옵션](#isnotfound-옵션)
+    - [`input` 옵션](#input-옵션)
+  - [isNotFound 반환값](#isnotfound-반환값)
+  - [예제](#예제)
+
 # isNotFound 함수
 
 `isNotFound` 함수는 특정 객체가 [`NotFoundError`](./NotFoundErrorType.md) 객체인지 확인하는 데 사용됩니다.

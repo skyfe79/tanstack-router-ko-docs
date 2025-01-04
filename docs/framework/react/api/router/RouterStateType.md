@@ -1,3 +1,15 @@
+# Table of Contents
+
+- [RouterState 타입](#routerstate-타입)
+  - [RouterState 속성](#routerstate-속성)
+    - [`status` 속성](#status-속성)
+    - [`isLoading` 속성](#isloading-속성)
+    - [`isTransitioning` 속성](#istransitioning-속성)
+    - [`matches` 프로퍼티](#matches-프로퍼티)
+    - [`pendingMatches` 속성](#pendingmatches-속성)
+    - [`location` 프로퍼티](#location-프로퍼티)
+    - [`resolvedLocation` 속성](#resolvedlocation-속성)
+
 # RouterState 타입
 
 `RouterState` 타입은 라우터의 내부 상태를 나타냅니다. 라우터의 내부 상태는 라우터의 특정 내부 정보에 접근해야 할 때 유용합니다. 예를 들어, 현재 대기 중인 매칭 정보나 라우터가 로딩 상태인지 여부 등을 확인할 수 있습니다.

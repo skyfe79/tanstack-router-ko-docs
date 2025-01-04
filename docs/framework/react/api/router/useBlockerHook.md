@@ -1,3 +1,21 @@
+# Table of Contents
+
+- [useBlocker 훅](#useblocker-훅)
+  - [useBlocker 옵션](#useblocker-옵션)
+    - [`options.shouldBlockFn` 옵션](#optionsshouldblockfn-옵션)
+    - [`options.disabled` 옵션](#optionsdisabled-옵션)
+    - [`options.enableBeforeUnload` 옵션](#optionsenablebeforeunload-옵션)
+    - [`options.withResolver` 옵션](#optionswithresolver-옵션)
+    - [`options.blockerFn` 옵션 (⚠️ 사용 중단됨)](#optionsblockerfn-옵션--사용-중단됨)
+    - [`options.condition` 옵션 (⚠️ 사용 중단됨)](#optionscondition-옵션--사용-중단됨)
+  - [useBlocker 반환값](#useblocker-반환값)
+  - [예제](#예제)
+    - [기본 사용법](#기본-사용법)
+    - [커스텀 UI](#커스텀-ui)
+    - [조건부 차단](#조건부-차단)
+    - [리졸버 없이 사용하기](#리졸버-없이-사용하기)
+    - [타입 좁히기 (Type Narrowing)](#타입-좁히기-type-narrowing)
+
 # useBlocker 훅
 
 `useBlocker` 메서드는 특정 조건이 충족될 때 [네비게이션을 차단](../../guide/navigation-blocking.md)하는 훅입니다.

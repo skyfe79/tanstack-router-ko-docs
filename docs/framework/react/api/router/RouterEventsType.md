@@ -1,3 +1,14 @@
+# Table of Contents
+
+- [RouterEvents 타입](#routerevents-타입)
+  - [라우터 이벤트 속성](#라우터-이벤트-속성)
+    - [`type` 속성](#type-속성)
+    - [`fromLocation` 속성](#fromlocation-속성)
+    - [`toLocation` 속성](#tolocation-속성)
+    - [`pathChanged` 속성](#pathchanged-속성)
+    - [`hrefChanged` 속성](#hrefchanged-속성)
+  - [예제](#예제)
+
 # RouterEvents 타입
 
 `RouterEvents` 타입은 라우터가 발생시킬 수 있는 모든 이벤트를 포함합니다. 이 타입의 각 최상위 키는 라우터가 발생시킬 수 있는 이벤트의 이름을 나타냅니다. 키의 값은 해당 이벤트의 페이로드입니다.

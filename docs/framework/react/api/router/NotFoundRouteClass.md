@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [NotFoundRoute 클래스](#notfoundroute-클래스)
+  - [생성자 옵션](#생성자-옵션)
+  - [예제](#예제)
+
 # NotFoundRoute 클래스
 
 > [!주의]

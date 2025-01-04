@@ -1,3 +1,18 @@
+# Table of Contents
+
+- [useMatch 훅](#usematch-훅)
+  - [useMatch 옵션](#usematch-옵션)
+    - [`opts.from` 옵션](#optsfrom-옵션)
+    - [`opts.strict` 옵션](#optsstrict-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+    - [`opts.shouldThrow` 옵션](#optsshouldthrow-옵션)
+  - [useMatch 반환값](#usematch-반환값)
+  - [Examples](#examples)
+    - [라우트 매치 접근하기](#라우트-매치-접근하기)
+    - [루트 라우트의 매치 정보 접근하기](#루트-라우트의-매치-정보-접근하기)
+    - [특정 라우트가 현재 렌더링 중인지 확인하기](#특정-라우트가-현재-렌더링-중인지-확인하기)
+
 # useMatch 훅
 
 `useMatch` 훅은 컴포넌트 트리에서 [`RouteMatch`](./RouteMatchType.md)를 반환합니다. 이 원시 라우트 매치 객체는 라우터에서 라우트 매치에 대한 모든 정보를 포함하며, `useParams`, `useLoaderData`, `useRouteContext`, `useSearch`와 같은 다른 훅들도 내부적으로 이 정보를 활용합니다.

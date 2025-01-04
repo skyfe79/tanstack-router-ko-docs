@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [링크 옵션](#링크-옵션)
+  - [linkOptions props](#linkoptions-props)
+    - [`...props`](#props)
+  - [`linkOptions` 반환값](#linkoptions-반환값)
+  - [예제](#예제)
+
 # 링크 옵션
 
 `linkOptions`는 `Link`, `navigate`, `redirect`와 함께 사용하기 위해 객체 리터럴의 타입을 검사하는 함수입니다.

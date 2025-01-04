@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [히스토리 타입](#히스토리-타입)
+  - [브라우저 라우팅](#브라우저-라우팅)
+  - [해시 라우팅(Hash Routing)](#해시-라우팅hash-routing)
+  - [메모리 라우팅(Memory Routing)](#메모리-라우팅memory-routing)
+
 # 히스토리 타입
 
 TanStack Router를 사용하기 위해 `@tanstack/history` API 자체를 알 필요는 없지만, 어떻게 동작하는지 이해하는 것이 좋습니다. 내부적으로 TanStack Router는 라우팅 히스토리를 관리하기 위해 `history` 추상화를 필요로 하고 사용합니다.

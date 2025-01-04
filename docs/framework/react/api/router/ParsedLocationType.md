@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [ParsedLocation 타입](#parsedlocation-타입)
+
 # ParsedLocation 타입
 
 `ParsedLocation` 타입은 TanStack Router에서 파싱된 위치를 나타냅니다. 이 타입은 현재 위치에 대한 다양한 유용한 정보를 포함하고 있으며, 경로명(pathname), 검색 파라미터(search params), 해시(hash), 위치 상태(location state), 그리고 라우트 마스킹 정보(route masking information) 등을 담고 있습니다.

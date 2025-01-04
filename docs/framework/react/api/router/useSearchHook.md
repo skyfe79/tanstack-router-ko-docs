@@ -1,3 +1,14 @@
+# Table of Contents
+
+- [useSearch 훅](#usesearch-훅)
+  - [useSearch 옵션](#usesearch-옵션)
+    - [`opts.from` 옵션](#optsfrom-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+    - [`opts.strict` 옵션](#optsstrict-옵션)
+  - [useSearch 반환값](#usesearch-반환값)
+  - [예제](#예제)
+
 # useSearch 훅
 
 `useSearch` 메서드는 현재 위치의 검색 쿼리 파라미터를 객체로 반환하는 훅입니다. 이 훅은 컴포넌트에서 현재 검색 문자열과 쿼리 파라미터에 접근할 때 유용합니다.

@@ -1,3 +1,25 @@
+# Table of Contents
+
+- [빠른 시작](#빠른-시작)
+  - [파일 기반 라우트 생성 사용하기](#파일-기반-라우트-생성-사용하기)
+    - [첫 번째 TanStack Router 프로젝트 시작하기](#첫-번째-tanstack-router-프로젝트-시작하기)
+- [또는](#또는)
+- [또는](#또는)
+- [또는](#또는)
+- [또는](#또는)
+    - [Manual Setup](#manual-setup)
+      - [TanStack Router, Vite 플러그인, 그리고 Router Devtools 설치하기](#tanstack-router-vite-플러그인-그리고-router-devtools-설치하기)
+- [또는](#또는)
+- [또는](#또는)
+- [또는](#또는)
+- [또는](#또는)
+      - [Vite 플러그인 설정하기](#vite-플러그인-설정하기)
+      - [`src/routes/__root.tsx`](#srcroutes__roottsx)
+      - [`src/routes/index.lazy.tsx`](#srcroutesindexlazytsx)
+      - [`src/routes/about.lazy.tsx`](#srcroutesaboutlazytsx)
+      - [`src/main.tsx`](#srcmaintsx)
+  - [코드 기반 라우트 설정 사용하기](#코드-기반-라우트-설정-사용하기)
+
 # 빠른 시작
 
 여러분이 서두르고 있어서 우리의 훌륭한 문서를 건너뛰고 싶다면, 파일 기반 라우트 생성과 코드 기반 라우트 설정을 모두 사용하여 TanStack Router를 시작하는 데 필요한 최소한의 내용을 소개합니다.

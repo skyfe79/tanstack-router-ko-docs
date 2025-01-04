@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [ErrorComponent 컴포넌트](#errorcomponent-컴포넌트)
+  - [ErrorComponent props](#errorcomponent-props)
+    - [`props.error` 속성](#propserror-속성)
+    - [`props.reset` 프로퍼티](#propsreset-프로퍼티)
+  - [ErrorComponent 반환값](#errorcomponent-반환값)
+
 # ErrorComponent 컴포넌트
 
 `ErrorComponent`는 오류 메시지를 렌더링하고, 선택적으로 오류의 상세 메시지를 표시하는 컴포넌트입니다.

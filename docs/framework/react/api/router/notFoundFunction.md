@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [notFound 함수](#notfound-함수)
+  - [notFound 옵션](#notfound-옵션)
+  - [notFound 반환 동작](#notfound-반환-동작)
+  - [예제](#예제)
+
 # notFound 함수
 
 `notFound` 함수는 새로운 `NotFoundError` 객체를 반환합니다. 이 객체는 라우트의 `beforeLoad`나 `loader` 콜백과 같은 곳에서 반환되거나 던져질 수 있으며, `notFoundComponent`를 트리거하는 데 사용됩니다.

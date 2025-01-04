@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [createRouter 함수](#createrouter-함수)
+  - [createRouter 옵션](#createrouter-옵션)
+  - [createRouter 반환값](#createrouter-반환값)
+  - [예제](#예제)
+
 # createRouter 함수
 
 `createRouter` 함수는 [`RouterOptions`](./RouterOptionsType.md) 객체를 인자로 받아 새로운 [`Router`](./RouterClass.md) 인스턴스를 생성합니다.

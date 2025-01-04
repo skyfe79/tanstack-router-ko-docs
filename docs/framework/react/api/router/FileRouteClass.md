@@ -1,3 +1,15 @@
+# Table of Contents
+
+- [FileRoute 클래스](#fileroute-클래스)
+  - [`FileRoute` 생성자](#fileroute-생성자)
+    - [생성자 옵션](#생성자-옵션)
+    - [생성자 반환값](#생성자-반환값)
+  - [`FileRoute` 메서드](#fileroute-메서드)
+    - [`.createRoute` 메서드](#createroute-메서드)
+      - [.createRoute 옵션](#createroute-옵션)
+      - [.createRoute 반환값](#createroute-반환값)
+    - [예제](#예제)
+
 # FileRoute 클래스
 
 > [!경고]

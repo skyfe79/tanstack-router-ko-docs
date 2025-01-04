@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [useAwaited 훅](#useawaited-훅)
+  - [useAwaited 옵션](#useawaited-옵션)
+    - [`options.promise` 옵션](#optionspromise-옵션)
+  - [useAwaited 반환값](#useawaited-반환값)
+  - [예제](#예제)
+
 # useAwaited 훅
 
 `useAwaited` 메서드는 제공된 Promise가 해결(resolve)되거나 거부(reject)될 때까지 실행을 일시 중단하는 훅입니다.

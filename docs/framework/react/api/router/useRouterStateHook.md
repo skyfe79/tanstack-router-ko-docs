@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [useRouterState 훅](#userouterstate-훅)
+  - [useRouterState 옵션](#userouterstate-옵션)
+    - [`opts.select` 옵션](#optsselect-옵션)
+    - [`opts.structuralSharing` 옵션](#optsstructuralsharing-옵션)
+  - [useRouterState 반환값](#userouterstate-반환값)
+  - [예제](#예제)
+
 # useRouterState 훅
 
 `useRouterState` 메서드는 라우터의 현재 내부 상태를 반환하는 훅입니다. 이 훅은 컴포넌트에서 라우터의 현재 상태에 접근할 때 유용합니다.

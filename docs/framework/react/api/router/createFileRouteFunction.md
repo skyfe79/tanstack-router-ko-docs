@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [createFileRoute 함수](#createfileroute-함수)
+  - [createFileRoute 옵션](#createfileroute-옵션)
+    - [`path` 옵션](#path-옵션)
+  - [createFileRoute 반환값](#createfileroute-반환값)
+  - [예제](#예제)
+
 # createFileRoute 함수
 
 `createFileRoute` 함수는 파일 기반 라우트 인스턴스를 생성하는 팩토리 함수입니다. 이렇게 생성된 라우트 인스턴스는 `tsr generate`와 `tsr watch` 커맨드를 사용하여 자동으로 라우트 트리를 생성하는 데 활용할 수 있습니다.

@@ -1,3 +1,12 @@
+# Table of Contents
+
+- [lazyRouteComponent 함수](#lazyroutecomponent-함수)
+  - [lazyRouteComponent 옵션](#lazyroutecomponent-옵션)
+    - [`importer` 옵션](#importer-옵션)
+    - [`exportName` 옵션](#exportname-옵션)
+  - [lazyRouteComponent 반환값](#lazyroutecomponent-반환값)
+  - [예제](#예제)
+
 # lazyRouteComponent 함수
 
 > [!중요]

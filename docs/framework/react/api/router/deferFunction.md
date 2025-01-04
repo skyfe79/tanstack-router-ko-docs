@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [defer 함수](#defer-함수)
+  - [지연 옵션(defer options)](#지연-옵션defer-options)
+  - [defer 반환값](#defer-반환값)
+  - [예제](#예제)
+
 # defer 함수
 
 > [!주의]

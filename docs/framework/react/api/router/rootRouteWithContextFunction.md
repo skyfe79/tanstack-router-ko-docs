@@ -1,3 +1,11 @@
+# Table of Contents
+
+- [rootRouteWithContext 함수](#rootroutewithcontext-함수)
+  - [rootRouteWithContext 제네릭](#rootroutewithcontext-제네릭)
+    - [`TRouterContext` 제네릭](#troutercontext-제네릭)
+  - [rootRouteWithContext 반환값](#rootroutewithcontext-반환값)
+  - [예제](#예제)
+
 # rootRouteWithContext 함수
 
 > [!주의]

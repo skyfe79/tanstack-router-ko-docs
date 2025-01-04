@@ -1,3 +1,7 @@
+# Table of Contents
+
+- [React Router에서 TanStack Router로 마이그레이션 체크리스트](#react-router에서-tanstack-router로-마이그레이션-체크리스트)
+
 # React Router에서 TanStack Router로 마이그레이션 체크리스트
 
 **_UI가 비어 있다면 콘솔을 열어보세요. `useNavigate`를 컨텍스트 외부에서 사용할 수 없다는 오류가 표시될 가능성이 높습니다. 이는 여전히 React Router API가 임포트되고 참조되고 있다는 의미입니다. 모든 React Router 임포트를 찾아 제거해야 합니다. 가장 쉬운 방법은 `react-router-dom`을 제거한 후 타입스크립트 오류를 확인하는 것입니다. 그러면 어떤 부분을 `@tanstack/react-router`로 변경해야 하는지 알 수 있습니다._**

@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [CatchNotFound 컴포넌트](#catchnotfound-컴포넌트)
+  - [CatchNotFound 컴포넌트의 props](#catchnotfound-컴포넌트의-props)
+    - [`props.children` prop](#propschildren-prop)
+    - [`props.fallback` 속성](#propsfallback-속성)
+    - [`props.onCatch` 프로퍼티](#propsoncatch-프로퍼티)
+  - [CatchNotFound 반환값](#catchnotfound-반환값)
+  - [예제](#예제)
+
 # CatchNotFound 컴포넌트
 
 `CatchNotFound` 컴포넌트는 자식 컴포넌트에서 발생한 **not-found 오류**를 잡아내는 역할을 합니다. 이 컴포넌트는 오류가 발생했을 때 **대체 컴포넌트(fallback component)**를 렌더링하고, 선택적으로 `onCatch` 콜백을 호출합니다. 또한, **pathname**이 변경되면 상태를 초기화합니다.

@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [NavigateOptions 타입](#navigateoptions-타입)
+  - [NavigateOptions 속성](#navigateoptions-속성)
+    - [`replace`](#replace)
+    - [`resetScroll`](#resetscroll)
+    - [`ignoreBlocker`](#ignoreblocker)
+    - [`reloadDocument`](#reloaddocument)
+    - [`href`](#href)
+
 # NavigateOptions 타입
 
 `NavigateOptions` 타입은 TanStack Router에서 네비게이션 동작을 정의할 때 사용할 수 있는 옵션들을 설명합니다.

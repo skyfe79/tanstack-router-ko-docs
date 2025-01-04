@@ -1,3 +1,16 @@
+# Table of Contents
+
+- [호스팅](#호스팅)
+  - [어떤 것을 사용해야 할까요?](#어떤-것을-사용해야-할까요)
+  - [Netlify란 무엇인가요?](#netlify란-무엇인가요)
+  - [배포](#배포)
+    - [Netlify 설정](#netlify-설정)
+    - [Vercel](#vercel)
+    - [Cloudflare Pages 배포하기](#cloudflare-pages-배포하기)
+- [wrangler.toml](#wranglertoml)
+    - [Node.js](#nodejs)
+    - [Bun](#bun)
+
 # 호스팅
 
 호스팅은 여러분의 애플리케이션을 인터넷에 배포하여 사용자가 접근할 수 있게 하는 과정입니다. 이는 웹 개발 프로젝트에서 매우 중요한 부분으로, 애플리케이션이 전 세계에서 사용 가능하도록 보장합니다. TanStack Start는 [Nitro](https://nitro.unjs.io/)를 기반으로 구축되었습니다. Nitro는 웹 애플리케이션을 어디서나 배포할 수 있는 강력한 서버 도구입니다. 이를 통해 TanStack Start는 어떤 호스팅 프로바이더에서도 SSR(서버 사이드 렌더링), 스트리밍, 하이드레이션을 위한 통합 API를 제공할 수 있습니다.

@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [LinkProps 타입](#linkprops-타입)
+  - [LinkProps 속성](#linkprops-속성)
+      - [`children`](#children)
+
 # LinkProps 타입
 
 `LinkProps` 타입은 [`ActiveLinkOptions`](./ActiveLinkOptionsType.md)와 `React.AnchorHTMLAttributes<HTMLAnchorElement>` 타입을 확장하며, `Link` 컴포넌트에 특화된 추가적인 프로퍼티를 포함합니다.
